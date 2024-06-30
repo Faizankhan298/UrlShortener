@@ -48,6 +48,11 @@ Navigate to `http://localhost:8000` and enter the URL you wish to shorten in the
 
 Use the shortened URL provided by the application in any web browser. The application will redirect you to the original URL and increment the access count.
 
+
+![Homepge](image2.png)
+![Homepge](image.png)
+
+
 ## Contributing
 
 Contributions to the project are welcome. Please follow the standard fork and pull request workflow.
