@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 8000;
+const port = 3000;
 const path = require("path");
 
 const URL = require("./models/url");
@@ -9,7 +9,9 @@ const staticRouter = require("./routes/staticRouter");
 
 const { connectToMongoDB } = require("./connect");
 
-connectToMongoDB("mongodb://localhost:27017/short-url").then(() => {
+connectToMongoDB(
+  "mongodb+srv://fk29837:faizan@cluster0.ljx2dvt.mongodb.net/short-url?retryWrites=true&w=majority&appName=Cluster0"
+).then(() => {
   console.log("Connected to MongoDB");
 });
 
